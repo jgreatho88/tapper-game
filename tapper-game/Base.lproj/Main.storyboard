@@ -35,17 +35,28 @@
                                 </constraints>
                                 <state key="normal" image="playbtn"/>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How many taps to win?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eju-6U-FyD">
+                                <rect key="frame" x="176" y="344" width="249" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="249" id="09r-hM-3kY"/>
+                                    <constraint firstAttribute="height" constant="45" id="uGL-K4-SFA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="J5j-f7-HaH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="56A-Ih-X6K"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="T5N-YR-qDG" secondAttribute="bottom" constant="71" id="7yE-1O-Cse"/>
+                            <constraint firstItem="T5N-YR-qDG" firstAttribute="top" secondItem="eju-6U-FyD" secondAttribute="bottom" constant="35" id="8Ex-2K-pTi"/>
                             <constraint firstItem="J5j-f7-HaH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LSy-Hz-iXn"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BtO-Ix-lkW" secondAttribute="bottom" id="LYZ-ye-5kq"/>
                             <constraint firstItem="BtO-Ix-lkW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Nur-j3-3IT"/>
                             <constraint firstItem="T5N-YR-qDG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R5c-se-iYW"/>
                             <constraint firstItem="BtO-Ix-lkW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="T5F-uU-JU7"/>
                             <constraint firstAttribute="trailing" secondItem="BtO-Ix-lkW" secondAttribute="trailing" id="WdT-xH-Pxq"/>
+                            <constraint firstItem="T5N-YR-qDG" firstAttribute="centerX" secondItem="eju-6U-FyD" secondAttribute="centerX" id="WvF-em-dnA"/>
                         </constraints>
                     </view>
                 </viewController>
