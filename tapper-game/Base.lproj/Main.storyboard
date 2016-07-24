@@ -20,11 +20,30 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="retrobg" translatesAutoresizingMaskIntoConstraints="NO" id="BtO-Ix-lkW">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Tapper" translatesAutoresizingMaskIntoConstraints="NO" id="J5j-f7-HaH">
+                                <rect key="frame" x="132" y="54" width="336" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="336" id="0IW-fy-Mde"/>
+                                    <constraint firstAttribute="height" constant="71" id="E8p-GH-r24"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5N-YR-qDG">
+                                <rect key="frame" x="176" y="409" width="249" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="J9p-lr-CYI"/>
+                                    <constraint firstAttribute="width" constant="249" id="nzE-Oc-kYG"/>
+                                </constraints>
+                                <state key="normal" image="playbtn"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="J5j-f7-HaH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="56A-Ih-X6K"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="T5N-YR-qDG" secondAttribute="bottom" constant="71" id="7yE-1O-Cse"/>
+                            <constraint firstItem="J5j-f7-HaH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LSy-Hz-iXn"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BtO-Ix-lkW" secondAttribute="bottom" id="LYZ-ye-5kq"/>
                             <constraint firstItem="BtO-Ix-lkW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Nur-j3-3IT"/>
+                            <constraint firstItem="T5N-YR-qDG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R5c-se-iYW"/>
                             <constraint firstItem="BtO-Ix-lkW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="T5F-uU-JU7"/>
                             <constraint firstAttribute="trailing" secondItem="BtO-Ix-lkW" secondAttribute="trailing" id="WdT-xH-Pxq"/>
                         </constraints>
@@ -36,6 +55,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Tapper" width="497" height="107"/>
+        <image name="playbtn" width="356" height="175"/>
         <image name="retrobg" width="800" height="800"/>
     </resources>
 </document>
