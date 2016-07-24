@@ -81,6 +81,13 @@
                             <constraint firstItem="vEa-d8-YHe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="rW7-ck-s5o"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="howManyTapsTxt" destination="eju-6U-FyD" id="beW-tq-GZv"/>
+                        <outlet property="logoImg" destination="J5j-f7-HaH" id="K67-t8-Xwz"/>
+                        <outlet property="playBtn" destination="T5N-YR-qDG" id="pYA-mR-Mr6"/>
+                        <outlet property="tapBtn" destination="vEa-d8-YHe" id="q4h-TE-qyT"/>
+                        <outlet property="tapsLbl" destination="vqD-Hw-Q5o" id="58t-ah-pCI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
